@@ -52,6 +52,7 @@
 		A1CCCA7E1BC44E41002EC6A6 /* UIViewController+SwizzleExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SwizzleExample.h"; sourceTree = "<group>"; };
 		A1CCCA7F1BC44E41002EC6A6 /* UIViewController+SwizzleExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SwizzleExample.m"; sourceTree = "<group>"; };
 		A1CCCA811BC45039002EC6A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1CCCA831BC45EB2002EC6A6 /* NSObjectSwizzle.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NSObjectSwizzle.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		A1CCCA2D1BC44D5F002EC6A6 = {
 			isa = PBXGroup;
 			children = (
+				A1CCCA831BC45EB2002EC6A6 /* NSObjectSwizzle.podspec */,
 				A1CCCA811BC45039002EC6A6 /* Default-568h@2x.png */,
 				A1CCCA771BC44DAC002EC6A6 /* NSObject+Swizzle */,
 				A1CCCA611BC44D86002EC6A6 /* NSObject_SwizzleExample */,
