@@ -9,29 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "NSObjectSwizzle"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NSObjectSwizzle."
+  s.summary          = "NSObject+Swizzle basic of method swizzling"
+  s.description      = "NSObject category for swizzling methods (both instance and class)"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/lukaszmargielewski/NSObjectSwizzle"
+  s.homepage         = "https://github.com/lukaszmargielewski/NSObject-Swizzle"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Lukasz Margielewski" => "lukasz.margielewski@gmail.com" }
-  s.source           = { :git => "https://github.com/lukaszmargielewski/NSObjectSwizzle.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/lukaszmargielewski/NSObject-Swizzle.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/lukmarg'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
+  s.source_files = 'NSObject+Swizzle/*.{h,m}'
 
-s.source_files = 'NSObject+Swizzle/*.{h,m}'
-
-  # s.public_header_files = 'NSObject+Swizzle/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
